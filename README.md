@@ -6,8 +6,14 @@ its highlights these transactions and displays their counts on a dashboard
 
 Main Features 
 1-Upload transaction form
+
+
+
+
 2-List all transaction,highlighting High Risk and Suspicious transactions
 3-Dashboard analytics showing total transactions and red-flagged counts
+
+
 
 
 workflow 
