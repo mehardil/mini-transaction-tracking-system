@@ -118,14 +118,79 @@ performance Apply async to:
 
 • Rule processing running transaction process in parallel
 
-instruction to stepup project
 
-(a)-Clone the Repository git clone
 
-(b)-Backend Setup 1- 1- 1-cd backend 1-pip install -r requirements.txt 2- create .env with mysql credentials MYSQL_HOST=localhost MYSQL_USER=root MYSQL_PASSWORD=Me$$1234 MYSQL_DB=transaction_tracking
+         Project Setup Instructions
+Step 1: Clone the Repository
 
-for backend 1- install python 2- cd backend 3- pip install -r requirements.txt 4- create database (transaction_tracking) 5- import files.sql 6- uvicorn main:app --reload
+git clone https://github.com/mehardil/mini-transaction-tracking-system.git
 
-for frontend
+Step 2: Move to Project Directory
+
+cd mini-transaction-tracking-system/
+
+Backend Setup
+
+Step 3: Move to Backend Directory
+
+cd backend/
+
+Step 4: Install Python Dependencies
+
+pip install -r requirements.txt
+
+Step 6: Create Database
+
+Option 1:Using Command Line
+
+1)CREATE DATABASE transaction_tracking;
+
+2)mysql -u username -p transaction_tracking <  transaction_tracking.sql
+
+Option 2: Using a SQL Editor
+   
+
+ • Open your preferred SQL editor
+    
+
+•  Open the file transaction_tracking.sql.
+    
+• Run the SQL queries inside the file to create all tables and initial data.
+
+
+Step 8: Start Backend Server
+
+    •                   uvicorn main:app –reload
+
+Make sure you are inside the backend folder before running this command.
+
+The server will start at: http://localhost:8000 by default.
+
+
+
+frontend Setup
+
+Step 9: Move to Frontend Directory
+
+cd transaction-tracking-frontend/
+
+Step 10: Install Node.js Dependencies
+
+using this command install node dependencies
+
+    • npm install
+
+Step 11: Start Frontend
+
+using this command start react frontend
+
+    • npm start
+    • http://localhost:3000/  (open this url)
+
+
+
+
+
+
 
 1-cd frontend 2-npm install 3-npm start
