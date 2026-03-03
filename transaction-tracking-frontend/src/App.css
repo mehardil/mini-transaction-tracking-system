@@ -1,0 +1,124 @@
+
+.high-risk-row {
+  background-color: #ffcccc; 
+  font-weight: bold;
+}
+.suspicious-row {
+  background-color: #fff3cd;
+}
+
+.normal-row {
+  background-color: #eafaf1; 
+}
+
+.transaction-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transaction-table th,
+.transaction-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+.upload-form {
+  display: flex;
+  gap: 10px;
+}
+
+.upload-form input {
+  flex: 1;
+}
+
+.upload-form button {
+  padding: 8px 15px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+
+
+.transaction-table th,
+.transaction-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.transaction-table th {
+  background-color: #f0f0f0;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat p {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.h4 {
+  text-align: center;
+}
+
+.flagged {
+  background-color: #ffe5e5;
+}
+
+.flagged-row {
+  background-color: #ffcccc;
+}
+
+
+.form { display: flex; flex-direction: row; gap: 10px; }
+.form input { padding: 8px; border: 1px solid #ccc; border-radius: 4px; }
+
+.status {
+  text-align: center;
+  margin: 10px 0;
+  padding: 10px;
+  font-weight: 500;
+}
+
+
+
