@@ -120,32 +120,32 @@ performance Apply async to:
 
 
 
-         Project Setup Instructions
+ Project Setup Instructions
 Step 1: Clone the Repository
 
-git clone https://github.com/mehardil/mini-transaction-tracking-system.git
+            git clone https://github.com/mehardil/mini-transaction-tracking-system.git
 
 Step 2: Move to Project Directory
 
-cd mini-transaction-tracking-system/
+            cd mini-transaction-tracking-system/
 
 Backend Setup
 
 Step 3: Move to Backend Directory
 
-cd backend/
+                cd backend/
 
 Step 4: Install Python Dependencies
 
-pip install -r requirements.txt
+               pip install -r requirements.txt
 
 Step 6: Create Database
 
 Option 1:Using Command Line
 
-1)CREATE DATABASE transaction_tracking;
+1)               CREATE DATABASE transaction_tracking;
 
-2)mysql -u username -p transaction_tracking <  transaction_tracking.sql
+2)               mysql -u username -p transaction_tracking <  transaction_tracking.sql
 
 Option 2: Using a SQL Editor
    
@@ -172,13 +172,13 @@ frontend Setup
 
 Step 9: Move to Frontend Directory
 
-cd transaction-tracking-frontend/
+             cd transaction-tracking-frontend/
 
 Step 10: Install Node.js Dependencies
 
 using this command install node dependencies
 
-    • npm install
+            • npm install
 
 Step 11: Start Frontend
 
@@ -186,6 +186,11 @@ using this command start react frontend
 
     • npm start
     • http://localhost:3000/  (open this url)
+
+
+
+
+
 
 
 
