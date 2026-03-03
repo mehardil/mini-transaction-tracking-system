@@ -3,7 +3,7 @@ Mini Transaction Risk Monitoring System
 1. Overview:
 
 This project is a small fraud detection system that identifies fraud transaction on specific rules.
-It     highlights these transactions and displays their counts on a dashboard 
+It highlights these transactions and displays their counts on a dashboard 
 
 2. Main Features: 
 
