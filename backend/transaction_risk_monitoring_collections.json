@@ -53,6 +53,39 @@
         "header": []
       },
       "response": []
+    },
+    {
+      "name": "transactionsupload",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "type": "file",
+              "contentType": "text/csv",
+              "key": "file",
+              "src": "transactions.csv"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{base_url}}transactions/upload",
+          "host": [
+            "{{base_url}}transactions"
+          ],
+          "path": [
+            "upload"
+          ]
+        }
+      },
+      "response": []
     }
   ],
   "event": [
