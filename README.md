@@ -51,8 +51,10 @@ Frontend:
 
 
 4.1 Upload Transactions Form
-
+(a) user input
 Make user input that has the following columns • transaction_id • user_id • amount • timestamp • device_id
+(b) file upload
+upload file using  POST/transactions/upload 
 
 4.2 Transactions Table
 
