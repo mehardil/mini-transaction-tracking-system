@@ -1,0 +1,88 @@
+{
+  "info": {
+    "_postman_id": "26dd7cc1-e455-422d-bffe-8b92ceb3b4a6",
+    "name": "transaction_risk_monitoring_system",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "22836052"
+  },
+  "item": [
+    {
+      "name": "Transactions",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/transactions",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "transactions"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Transactions",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\"transaction_id\": \"TX123\",\n\"user_id\": \"U1001\",\n\"amount\": 25000,\n\"timestamp\": \"2026-02-23 10:00:00\",\n\"device_id\": \"D777\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}transactions",
+          "host": [
+            "{{base_url}}transactions"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "dashboard",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "base_url",
+      "value": ""
+    }
+  ]
+}

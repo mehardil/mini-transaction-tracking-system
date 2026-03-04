@@ -19,11 +19,10 @@ app.add_middleware(
     allow_headers=["*"],)
 
 
-
 @app.post("/transactions")
 def create_transaction(tx: schemas.TransactionCreate):
     """
-        create new transaction record
+    create new transaction record
     1-check duplicate transactions
     2-Applies fraud rules
     3-Save transaction to database
@@ -72,7 +71,7 @@ async def get_transactions():
         sql = """
         select transaction_id, user_id, amount, transaction_time AS timestamp,
         device_info AS device_id,risk_flag,rule_triggered
-        from transaction_tracking"""
+        from transaction_tracking order by id desc"""
         cursor.execute(sql)
         transactions = cursor.fetchall()
         return transactions
