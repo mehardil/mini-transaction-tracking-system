@@ -17,8 +17,14 @@ Backend:
 
 3.1. Transaction Form (post api)
 
-  • Submit transaction details via a form. 
+  • Submit transaction details via a user input form. 
+  
   • Post transaction using the POST/transactions API.
+
+  • Submit transaction details via fileuploading form. 
+  
+  • Post transaction using the POST/transactionslupload API.
+
 
 3.2.Validation Checks
 
