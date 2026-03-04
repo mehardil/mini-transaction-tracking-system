@@ -23,7 +23,7 @@ Backend:
 
   • Submit transaction details via fileuploading form. 
   
-  • Post transaction using the POST/transactionslupload API.
+  • Post transaction using the POST/transactionsupload API.
 
 
 3.2.Validation Checks
