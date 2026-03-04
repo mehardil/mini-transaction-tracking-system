@@ -71,7 +71,7 @@ async def get_transactions():
         sql = """
         select transaction_id, user_id, amount, transaction_time AS timestamp,
         device_info AS device_id,risk_flag,rule_triggered
-        from transaction_tracking order by id desc"""
+        from transaction_tracking"""
         cursor.execute(sql)
         transactions = cursor.fetchall()
         return transactions

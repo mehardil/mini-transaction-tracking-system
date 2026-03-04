@@ -7,3 +7,4 @@ class TransactionCreate(BaseModel):
     amount: float = Field(..., gt=0)
     timestamp: datetime
     device_id: str = Field(..., min_length=1)
+

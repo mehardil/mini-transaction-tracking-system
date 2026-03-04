@@ -43,7 +43,7 @@ function TransactionForm({ updatedata }) {
       if(!message) return
       const timer = setTimeout(() => {
           setmessage("")
-        },5000);
+        },2000);
       return()=>clearTimeout(timer)
     },[message])
 

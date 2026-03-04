@@ -7,7 +7,6 @@
   background-color: #fff3cd;
 }
 
-
 .normal-row {
   background-color: #eafaf1; 
 }
@@ -47,7 +46,6 @@ body {
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 8px;
-  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
 }
 
 .upload-form {
@@ -67,9 +65,6 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
-
-
-
 
 
 .transaction-table th,
@@ -111,8 +106,16 @@ body {
 }
 
 
-.form { display: flex; flex-direction: row; gap: 10px; }
-.form input { padding: 8px; border: 1px solid #ccc; border-radius: 4px; }
+.form { 
+  display: flex;
+  flex-direction: row;
+  gap: 10px; 
+}
+.form input { 
+  padding: 8px;
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+}
 
 .status {
   text-align: center;
